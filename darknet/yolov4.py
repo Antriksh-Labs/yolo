@@ -4,7 +4,7 @@ import pathlib
 import joblib
 from pathlib import Path
 
-base_path= Path.("root"/"yolo"/"darknet")
+base_path= Path.("root"/"darknet")
 
 def imShow(path):
   import cv2
